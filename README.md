@@ -35,7 +35,7 @@
   | GPU | Intel HD Graphics 4400 (known issues) |
   | Storage | SanDisk Ultra 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
-  | Internal WiFi | Intel Centrino Wireless-N (not working) |
+  | Internal WiFi/Bluetooth | Intel Centrino Wireless-N (not working) |
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
   | Ethernet | Intel I217-V |
   
