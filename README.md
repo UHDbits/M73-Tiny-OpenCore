@@ -77,5 +77,7 @@
   **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC, and can be fixed by going into System Preferences -> Audio, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
 
   ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
+  
+  [**Jump to Top**](#opencore-081-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
