@@ -13,6 +13,8 @@ Do your specs match the ones shown in the README.md (minus the USB WiFi adapter)
 
 If your specs do not match, what are your specs?:
 
+What version of OS X/macOS are you using?:
+
 What is your issue?:
 
 Steps to reproduce your issue:
