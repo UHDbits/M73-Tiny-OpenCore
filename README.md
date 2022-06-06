@@ -1,5 +1,7 @@
 <div align="center">
   
+  ### NOTE: macOS Ventura will NOT work on this config. Not only will you likely need to patch for the next release, due to the Macs that are similar to this computer being dropped, but changes also have to be made to the actual config itself. Please wait for updates as I attempt to get Ventura working on the i7 version of my ThinkCentre (which this config will soon be transitioning over to, the i7 variant, although it should still work on the i3 variant).
+  
   # OpenCore 0.8.1 EFI for the ThinkCentre M73 Tiny
   
   [![OpenCore 0.8.1](https://img.shields.io/badge/OpenCore-0.8.1-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
