@@ -1,13 +1,11 @@
 <div align="center">
   
-  ### NOTE: macOS Ventura will NOT work on this config. Not only will you likely need to patch for the next release, due to the Macs that are similar to this computer being dropped, but changes also have to be made to the actual config itself. Please wait for updates as I attempt to get Ventura working on the i7 version of my ThinkCentre (which this config will soon be transitioning over to, the i7 variant, although it should still work on the i3 variant).
-  
+  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, it still doesn't work with Ventura, and graphics acceleration is not supported. I do not recommend using Ventura on this computer for a while.**
+
   # OpenCore 0.8.1 EFI for the ThinkCentre M73 Tiny
   
   [![OpenCore 0.8.1](https://img.shields.io/badge/OpenCore-0.8.1-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Monterey 12.2.1](https://img.shields.io/badge/macOS-Monterey%2012.2.1-blueviolet)](https://apple.com/macos/monterey)
-  [![Supported CPU: Intel Core i3-4130T](https://img.shields.io/badge/Supported%20CPU-Core%20i3--4130T-blue)](https://ark.intel.com/content/www/us/en/ark/products/77481/intel-core-i34130t-processor-3m-cache-2-90-ghz.html)
-  [![Supported GPU: Intel HD4400](https://img.shields.io/badge/Supported%20GPU-HD4400-blue)](https://ark.intel.com/content/www/us/en/ark/products/graphics/81497/intel-hd-graphics-4400.html)
+  [![macOS Monterey 12.5](https://img.shields.io/badge/macOS-Monterey%2012.5-blueviolet)](https://apple.com/macos/monterey)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
@@ -20,7 +18,7 @@
   
   ## Contents
   
-  [**System Specifications**](#system-specifications)
+  [**My System Specifications**](#my-system-specifications)
 
   [**Directions**](#directions)
 
@@ -28,13 +26,13 @@
 
   [**Known Issues**](#known-issues)
   
-  ## System Specifications
+  ## My System Specifications
   
   | Component | Model |
   | :-: | :-: |
-  | CPU | Intel Core i3-4130T (2c4t) @ 2.90GHz |
-  | RAM | 2x4GB of DDR3-1600 |
-  | GPU | Intel HD Graphics 4400 (known issues) |
+  | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
+  | RAM | 2x8GB (16GB) of DDR3-1600 |
+  | GPU | Intel HD Graphics 4600 |
   | Storage | SanDisk Ultra 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
   | Internal WiFi/Bluetooth | Intel Centrino Wireless-N (not working) |
@@ -55,7 +53,7 @@
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
   | 5** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 6** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 7* | [Optimizing Power Management (CPUFriend is already included in the OpenCore config)](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)
+  | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
 
   ## Updating OpenCore/macOS
   
@@ -68,10 +66,10 @@
   ## Known Issues
 
   ### Monterey 12.3+ crashes during setup
-  **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. I do not know how to fix this, and I think it's fault of the HD4400, which is impossible to fix. Upgrading the CPU and iGPU may fix it.**
+  **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. I do not know how to fix this, and I think it's fault of the HD4400, which is impossible to fix. Once I get my new i7 in, and test it on HD4600, I will tell you if it's fault of the HD4400, or another issue.**
 
   ### HD4400 Glitching and Freezing
-  **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), some random freezes may happen, icons may get replaced, and more. In newer version of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with a HD4600 iGPU.**
+  **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with a HD4600 iGPU.**
 
   ![Example of Missing Icons](/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
 
