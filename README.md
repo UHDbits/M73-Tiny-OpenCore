@@ -10,7 +10,7 @@
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
-  | ![Catalina About This Mac](/Images/About%20This%20Mac/DarkCatalinaAboutThisMac.png#gh-dark-mode-only) ![Catalina About This Mac](Images/About%20This%20Mac/LightCatalinaAboutThisMac.png#gh-light-mode-only) | ![Monterey About This Mac](/Images/About%20This%20Mac/DarkMontereyAboutThisMac.png#gh-dark-mode-only) ![Monterey About This Mac](/Images/About%20This%20Mac/LightMontereyAboutThisMac.png#gh-light-mode-only) |
+  | ![Catalina About This Mac](/Images/About%20This%20Mac/DarkCatalinaAboutThisMac.png#gh-dark-mode-only) ![Catalina About This Mac](Images/About%20This%20Mac/LightCatalinaAboutThisMac.png#gh-light-mode-only) | ![Ventura About This Mac](/Images/About%20This%20Mac/DarkVenturaAboutThisMac.png#gh-dark-mode-only) ![Ventura About This Mac](/Images/About%20This%20Mac/LightVenturaAboutThisMac.png#gh-light-mode-only) |
   | ----------------------------------------- | ----------------------------------------- |
   
   ## ⚠️ WARNING ⚠️
