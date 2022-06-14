@@ -15,7 +15,7 @@
   
   ## ⚠️ WARNING ⚠️
   
-  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk.**
+  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk. Also, it may not work with your macOS/OS X version. It should work on anything since OS X 10.8 Mountain Lion, but it's only been tested on macOS 10.14 Mojave and above.**
   
   ## Contents
   
