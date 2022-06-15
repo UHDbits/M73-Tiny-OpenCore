@@ -1,11 +1,11 @@
 <div align="center">
   
-  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura.**
+  ### **NOTE: I have not yet gotten Ventura working on this ThinkCentre. Once I do get it working, I will immediately upload the config here. It will be a debug config, and not everything will be working, especially graphics acceleration. If you run Ventura on this ThinkCentre, expect it to be very slow for now.**
 
-  # **OpenCore 0.8.1 EFI for the ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.1](https://img.shields.io/badge/OpenCore-0.8.1-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Monterey 12.5](https://img.shields.io/badge/macOS-Monterey%2012.5-blueviolet?logo=apple)](https://apple.com/macos/monterey)
+  [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  [![macOS Ventura 13.0](https://img.shields.io/badge/macOS-Ventura%2013.0-f48003?logo=apple)](https://apple.com/macos/macos-ventura-preview)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
@@ -52,6 +52,7 @@
   | 2 | Mount your EFI partition if not already done, and take the "EFI" folder in this repo and copy it into the EFI partition. Make sure you copy the "EFI" folder itself, and not the folders inside of it directly into the EFI partition.
   | 3 | [Intel BIOS Settings (scroll to the bottom of this page if not done already, and Disable/Enable as many of the settings as possible. If it tells you to enable anything in the actual OpenCore config, ignore it.)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
+  | 5 | [(FOR VENTURA ONLY, AND CURRENTLY DOES NOT WORK) Use OpenCore Legacy Patcher to patch the root volume to get graphics acceleration.](https://dortania.github.io/OpenCore-Legacy-Patcher/POST-INSTALL.html#applying-post-install-volume-patches)
   | 5** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 6** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
   | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
@@ -67,7 +68,7 @@
   ## Known Issues
 
   ### Monterey 12.3+ crashes during setup
-  **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This is due to the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU.**
+  **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This is due to the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU. It is also unknown if this happens in Ventura.**
 
   ### HD4400 Glitching and Freezing
   **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
@@ -79,6 +80,6 @@
 
   ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-081-efi-for-the-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-082-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
