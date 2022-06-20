@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: I have not yet gotten Ventura working on this ThinkCentre. Once I do get it working, I will immediately upload the config here. It will be a debug config, and not everything will be working, especially graphics acceleration. If you run Ventura on this ThinkCentre, expect it to be very slow for now.**
+  ### **NOTE: This is an experimental config for macOS 13 Ventura. Although it should work fine, you will NOT have graphics acceleration. This makes macOS basically unusable because of how slow it is. Do not use Ventura on this ThinkCentre as your daily for the time being.**
 
   # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
   
@@ -53,9 +53,9 @@
   | 3 | [Intel BIOS Settings (scroll to the bottom of this page if not done already, and Disable/Enable as many of the settings as possible. If it tells you to enable anything in the actual OpenCore config, ignore it.)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
   | 5 | [(FOR VENTURA ONLY, AND CURRENTLY DOES NOT WORK) Use OpenCore Legacy Patcher to patch the root volume to get graphics acceleration.](https://dortania.github.io/OpenCore-Legacy-Patcher/POST-INSTALL.html#applying-post-install-volume-patches)
-  | 5** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
-  | 6** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
+  | 6** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
+  | 7** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+  | 8* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
 
   ## Updating OpenCore/macOS
   
