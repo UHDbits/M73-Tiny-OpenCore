@@ -3,7 +3,7 @@
   # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny and legacy Mac OS X/macOS**
   
   [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  ![Mac OS X/macOS 10.8 - 10.13](https://img.shields.io/badge/Mac%20OS%20X%2FmacOS-10.8%20--%2010.13-informational)
+  ![Mac OS X/macOS 10.8.3 - 10.13](https://img.shields.io/badge/Mac%20OS%20X%2FmacOS-10.8.3%20--%2010.13.6-informational)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-No.-red.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/commits/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
