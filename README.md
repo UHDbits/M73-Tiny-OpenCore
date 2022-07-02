@@ -1,21 +1,19 @@
 <div align="center">
-  
-  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura.**
 
-  # **OpenCore 0.8.1 EFI for the ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny and legacy Mac OS X/macOS**
   
-  [![OpenCore 0.8.1](https://img.shields.io/badge/OpenCore-0.8.1-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Monterey 12.5](https://img.shields.io/badge/macOS-Monterey%2012.5-blueviolet?logo=apple)](https://apple.com/macos/monterey)
-  [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
+  [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  ![Mac OS X/macOS 10.8 - 10.13](https://img.shields.io/badge/Mac%20OS%20X%2FmacOS-10.8%20--%2010.13-informational)
+  [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-No.-red.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/commits/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
-  | ![Catalina About This Mac](/Images/About%20This%20Mac/DarkCatalinaAboutThisMac.png#gh-dark-mode-only) ![Catalina About This Mac](Images/About%20This%20Mac/LightCatalinaAboutThisMac.png#gh-light-mode-only) | ![Monterey About This Mac](/Images/About%20This%20Mac/DarkMontereyAboutThisMac.png#gh-dark-mode-only) ![Monterey About This Mac](/Images/About%20This%20Mac/LightMontereyAboutThisMac.png#gh-light-mode-only) |
+  | ![Mavericks About This Mac](/Images/About%20This%20Mac/MavericksAboutThisMac.png) | ![Yosemite About This Mac](/Images/About%20This%20Mac/YosemiteAboutThisMac.png) |
   | ----------------------------------------- | ----------------------------------------- |
   
   ## ⚠️ WARNING ⚠️
   
-  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk. Also, it may not work with your macOS/OS X version. It should work on anything since OS X 10.8 Mountain Lion, but it's only been tested on macOS 10.14 Mojave and above.**
+  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk.**
   
   ## Contents
   
@@ -37,7 +35,7 @@
   | Storage | SanDisk Ultra 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
   | Internal WiFi/Bluetooth | Intel Centrino Wireless-N (not working) |
-  | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
+  | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-Adapter)) |
   | Ethernet | Intel I217-V |
   
   **If your system does not meet these exact specifications (other than the not-important parts, like the WiFi card), I can not guarantee this config will work for you. If you try it, and it doesn't work for you, you can create an issue and I will try to help you make it work.**
@@ -54,7 +52,7 @@
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
   | 5** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 6** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
+  | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the old USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
 
   ## Updating OpenCore/macOS
   
@@ -66,19 +64,14 @@
 
   ## Known Issues
 
-  ### Monterey 12.3+ crashes during setup
-  **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This is due to the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU.**
-
   ### HD4400 Glitching and Freezing
-  **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
-
-  ![Example of Missing Icons](/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
+  **The HD4400 has many issues in macOS. For example, some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
 
   ### Headphone Audio Glitching
   **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC and can be fixed by going into System Preferences -> Audio, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
 
-  ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
+  ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/HeadphonesFix.png)
   
-  [**Jump to Top**](#opencore-081-efi-for-the-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-082-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
