@@ -79,6 +79,9 @@
 
   ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
+  ### No Microphone Jack Input
+  **Out of the box, there is no Microphone Jack input with this config. It should be possible to get Microphone Jack input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this apparently results in much worse output audio quality. You could also try using VoodooHDA, but the same issue happens, much worse output audio quality. I have decided that better output audio quality is more important then being able to input something through the Microphone Jack, so I have done that instead.**
+
   [**Jump to Top**](#opencore-082-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
