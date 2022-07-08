@@ -5,8 +5,10 @@
   # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
   
   [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Monterey 12.5](https://img.shields.io/badge/macOS-Monterey%2012.5-blueviolet?logo=apple)](https://apple.com/macos/monterey)
+  ![macOS Catalina 10.15 to Monterey 12.5](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Monterey%2012.5-blueviolet?logo=apple)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
+
+  [![Config for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-red)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
@@ -15,7 +17,7 @@
   
   ## ⚠️ WARNING ⚠️
   
-  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk. Also, it may not work with your macOS/OS X version. It should work on anything since OS X 10.8 Mountain Lion, but it's only been tested on macOS 10.14 Mojave and above.**
+  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk.**
   
   ## Contents
   
