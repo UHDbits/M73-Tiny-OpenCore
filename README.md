@@ -8,7 +8,7 @@
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
-  | ![Mavericks About This Mac](/Images/About%20This%20Mac/MavericksAboutThisMac.png) | ![Yosemite About This Mac](/Images/About%20This%20Mac/YosemiteAboutThisMac.png) |
+  | ![Mountain Lion About This Mac](/Images/About%20This%20Mac/MountainLionAboutThisMac.png) | ![Mojave About This Mac](/Images/About%20This%20Mac/MojaveAboutThisMac.png) |
   | ----------------------------------------- | ----------------------------------------- |
   
   ## ⚠️ WARNING ⚠️
