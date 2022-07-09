@@ -2,11 +2,13 @@
   
   ### **NOTE: This is an experimental config for macOS 13 Ventura. Although it should work fine, you will NOT have graphics acceleration. This makes macOS basically unusable because of how slow it is. Do not use Ventura on this ThinkCentre as your daily for the time being.**
 
-  # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.3 EFI for the ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Ventura 13.0](https://img.shields.io/badge/macOS-Ventura%2013.0-f48003?logo=apple)](https://apple.com/macos/macos-ventura-preview)
+  [![OpenCore 0.8.3](https://img.shields.io/badge/OpenCore-0.8.3-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  [![macOS Catalina 10.15 to Ventura 13.0](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.0-f48003?logo=apple)](https://apple.com/macos/macos-ventura-preview)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
+
+  [![Config for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-red)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
@@ -15,7 +17,7 @@
   
   ## ⚠️ WARNING ⚠️
   
-  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk. Also, it may not work with your macOS/OS X version. It should work on anything since OS X 10.8 Mountain Lion, but it's only been tested on macOS 10.14 Mojave and above.**
+  **I do NOT recommend using prebuilt OpenCore EFIs. They might not work with the exact configuration of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This is meant to be used to help with the creation of a custom OpenCore EFI, or should only be used at your own risk.**
   
   ## Contents
   
@@ -55,7 +57,7 @@
   | 5 | [(FOR VENTURA ONLY, AND CURRENTLY DOES NOT WORK) Use OpenCore Legacy Patcher to patch the root volume to get graphics acceleration.](https://dortania.github.io/OpenCore-Legacy-Patcher/POST-INSTALL.html#applying-post-install-volume-patches)
   | 6** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 7** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 8* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext and USBMapLegacy.kext.](https://github.com/corpnewt/USBMap)
+  | 8* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext.](https://github.com/corpnewt/USBMap)
 
   ## Updating OpenCore/macOS
   
@@ -79,7 +81,10 @@
   **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC and can be fixed by going into System Preferences -> Audio, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
 
   ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
+
+  ### No Microphone Jack Input
+  **Out of the box, there is no Microphone Jack input with this config. It should be possible to get Microphone Jack input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this apparently results in much worse output audio quality. You could also try using VoodooHDA, but the same issue happens, much worse output audio quality. I have decided that better output audio quality is more important then being able to input something through the Microphone Jack, so I have done that instead.**
   
-  [**Jump to Top**](#opencore-082-efi-for-the-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-083-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
