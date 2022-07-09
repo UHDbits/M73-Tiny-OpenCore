@@ -828,7 +828,7 @@
 			<key>PickerVariant</key>
 			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -883,7 +883,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
@@ -1244,7 +1244,7 @@
 			<key>FirmwareVolume</key>
 			<true/>
 			<key>HashServices</key>
-			<false/>
+			<true/>
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
