@@ -3,8 +3,9 @@
   # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny and legacy Mac OS X/macOS**
   
   [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  ![Mac OS X/macOS 10.8.3 - 10.13](https://img.shields.io/badge/Mac%20OS%20X%2FmacOS-10.8.3%20--%2010.13.6-informational)
-  [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-No.-red.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/commits/legacy)
+  ![Partially Supported Versions: Mac OS X 10.8.3 - 10.10.5](https://img.shields.io/badge/Partially%20Supported%20Versions-Mac%20OS%20X%2010.8.3%20--%2010.10.5-informational)
+  ![Fully Supported Versions: Mac OS X/macOS 10.11 - 10.14.6](https://img.shields.io/badge/Fully%20Supported%20Versions-Mac%20OS%20X%2FmacOS%2010.11%20--%2010.14.6-important)
+  [![Maintained? No,](https://img.shields.io/badge/Maintained%3F-No.-red.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/commits/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
@@ -66,6 +67,12 @@
 
   ### HD4400 Glitching and Freezing
   **The HD4400 has many issues in macOS. For example, some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
+
+  ### No Sound in Yosemite and Below
+  **In Yosemite and below, sound does not seem to work. This is strange, because AppleALC should work fine in 10.8 Mountain Lion and higher (but the ALC283 only supports Mavericks and higher). You could try to use VoodooHDA to get sound working, but I was also unable to get sound working with VoodooHDA.**
+
+  ### No Ethernet in Mavericks and Below
+  **In Mavericks and below, ethernet does not work with the Intel-I217V. In Mavericks, which supports IntelMausi.kext, sometimes an "Ethernet" network will show up in System Preferences, but even with a cable connected it doesn't seem to work. In Mountain Lion, which only supports IntelSnowMausi.kext, the same thing happens. Please let me know if you find a fix to this issue.**
 
   ### Headphone Audio Glitching
   **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC and can be fixed by going into System Preferences -> Audio, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
