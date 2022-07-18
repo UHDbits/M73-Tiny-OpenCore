@@ -67,6 +67,9 @@
   **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to upgrade macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.)**
 
   ## Known Issues
+  
+  ### No VGA Output
+  **With macOS, you will not be able to output the GUI via the VGA port featured on the ThinkCentre. This is an issue with macOS not offically supporting VGA, and at the moment is currently impossible to fix.**
 
   ### Monterey 12.3+ crashes during setup
   **Monterey 12.3 and newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This is due to the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU.**
