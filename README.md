@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura.**
+  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
 
   # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
   
@@ -46,7 +46,7 @@
 
   ## Directions
   
-  **Follow the steps below by going to the links and following the according directions on the OpenCore guide. The step is optional (but may be required to get some features working) if it is labeled with a &#42;. If the step labeled has &#42;&#42;, that means it's optional, but extremely recommended.**
+  **Follow the steps below by going to the links and following the according directions on the OpenCore guide. If a step is labeled with a &#42;, it means it's optional, but extremely recommended. If the step labeled has &#42;&#42;, that means it's optional and not required.**
 
   | Step # | Link/Directions |
   | :-: | :-: |
@@ -54,9 +54,9 @@
   | 2 | Mount your EFI partition if not already done, and take the "EFI" folder in this repo and copy it into the EFI partition. Make sure you copy the "EFI" folder itself, and not the folders inside of it directly into the EFI partition.
   | 3 | [Intel BIOS Settings (scroll to the bottom of this page if not done already, and Disable/Enable as many of the settings as possible. If it tells you to enable anything in the actual OpenCore config, ignore it.)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#intel-bios-settings)
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
-  | 5** | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
-  | 6** | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 7* | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext.](https://github.com/corpnewt/USBMap)
+  | 5* | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
+  | 6* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+  | 7** | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext.](https://github.com/corpnewt/USBMap)
 
   ## Updating OpenCore/macOS
   
