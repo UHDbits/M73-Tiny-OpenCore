@@ -2,9 +2,9 @@
   
   ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
 
-  # **OpenCore 0.8.2 EFI for the ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.3 EFI for the ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.2](https://img.shields.io/badge/OpenCore-0.8.2-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.8.3](https://img.shields.io/badge/OpenCore-0.8.3-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
   ![macOS Catalina 10.15 to Monterey 12.5](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Monterey%2012.5-blueviolet?logo=apple)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
@@ -87,6 +87,6 @@
   ### No Microphone Jack Input
   **Out of the box, there is no Microphone Jack input with this config. It should be possible to get Microphone Jack input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this apparently results in much worse output audio quality. You could also try using VoodooHDA, but the same issue happens, much worse output audio quality. I have decided that better output audio quality is more important then being able to input something through the Microphone Jack, so I have done that instead.**
 
-  [**Jump to Top**](#opencore-082-efi-for-the-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-083-efi-for-the-thinkcentre-m73-tiny)
 
 </div>
