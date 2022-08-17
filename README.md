@@ -10,9 +10,9 @@
 
   [![Config for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-red)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
 
-  <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
+  <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
-  | ![Catalina About This Mac](/Images/About%20This%20Mac/DarkCatalinaAboutThisMac.png#gh-dark-mode-only) ![Catalina About This Mac](Images/About%20This%20Mac/LightCatalinaAboutThisMac.png#gh-light-mode-only) | ![Monterey About This Mac](/Images/About%20This%20Mac/DarkMontereyAboutThisMac.png#gh-dark-mode-only) ![Monterey About This Mac](/Images/About%20This%20Mac/LightMontereyAboutThisMac.png#gh-light-mode-only) |
+  | ![Catalina About This Mac](/Resources/Images/About%20This%20Mac/DarkCatalinaAboutThisMac.png#gh-dark-mode-only) ![Catalina About This Mac](/Resources/Images/About%20This%20Mac/LightCatalinaAboutThisMac.png#gh-light-mode-only) | ![Monterey About This Mac](/Resources/Images/About%20This%20Mac/DarkMontereyAboutThisMac.png#gh-dark-mode-only) ![Monterey About This Mac](/Resources/Images/About%20This%20Mac/LightMontereyAboutThisMac.png#gh-light-mode-only) |
   | ----------------------------------------- | ----------------------------------------- |
   
   ## ⚠️ WARNING ⚠️
@@ -77,12 +77,12 @@
   ### HD4400 Glitching and Freezing
   **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), some random freezes may happen, icons may get replaced, and more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
 
-  ![Example of Missing Icons](/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
+  ![Example of Missing Icons](/Resources/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](/Resources/Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
 
   ### Headphone Audio Glitching
   **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC and can be fixed by going into System Preferences -> Audio, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
 
-  ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
+  ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
   ### No Microphone Jack Input
   **Out of the box, there is no Microphone Jack input with this config. It should be possible to get Microphone Jack input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this apparently results in much worse output audio quality. You could also try using VoodooHDA, but the same issue happens, much worse output audio quality. I have decided that better output audio quality is more important then being able to input something through the Microphone Jack, so I have done that instead.**
