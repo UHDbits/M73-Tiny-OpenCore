@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is not supported, so it is unusable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
+  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want to get a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in alpha stages, so it can be buggy and unstable. I do not recommend using Ventura on this ThinkCentre until this main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
 
   # **OpenCore 0.8.3 EFI for the ThinkCentre M73 Tiny**
   
