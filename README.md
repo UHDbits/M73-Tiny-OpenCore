@@ -50,13 +50,14 @@
 
   | Step # | Link/Directions |
   | :-: | :-: |
+  | 0.5 | [For ThinkCentre M93p users, map your USB ports on Windows using this tool. Make sure to enable "Use Native Classes" in Settings, and use "iMac17,1" as the model identifer.](https://github.com/USBToolBox/tool)
   | 1 | [Creating the USB (do not put the EFI folder in the EFI partition, and do not download "OpenCorePkg").](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
   | 2 | Mount your EFI partition if not already done, and take the "EFI" folder in this repo and copy it into the EFI partition. Make sure you copy the "EFI" folder itself, and not the folders inside of it directly into the EFI partition.
   | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md)
   | 4 | [Installation Process (skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
   | 5* | [Moving OpenCore from USB to macOS Drive (Skip legacy part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
-  | 6* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't the best idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 7** | [For ThinkCentre M93p users, map your USB ports using this tool (check issues for instructions after step 5). Make sure to delete the previous USBMap.kext.](https://github.com/corpnewt/USBMap)
+  | 6* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't a good idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+  
 
   ## Updating OpenCore/macOS
   
