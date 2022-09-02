@@ -46,7 +46,7 @@
 
   ## Directions
   
-  **Follow the steps below by going to the links and following the according directions on the OpenCore guide. If a step is labeled with a &#42;, it means it's optional, but extremely recommended. If the step labeled has &#42;&#42;, that means it's optional and not required.**
+  **Follow the steps below by going to the links and following the directions on the OpenCore Install Guide. If a step is labeled with a &#42;, it means it's optional, but extremely recommended.**
 
   | Step # | Link/Directions |
   | :-: | :-: |
