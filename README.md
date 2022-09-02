@@ -42,7 +42,7 @@
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
   | Ethernet | Intel I217-V |
   
-  **If your system does not match these specifications (other than the not-important parts, like the WiFi card), IIt is not guaranteed that this configuration will work for you. If you are unable to get it to work, you can create an issue and I will try to help you to the best of my ability.**
+  **If your system does not match these specifications (other than the not-important parts, like the WiFi card), it is not guaranteed that this configuration will work for you. If you are unable to get it to work, you can create an issue and I will try to help you to the best of my ability.**
 
   ## Directions
   
