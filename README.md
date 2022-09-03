@@ -88,6 +88,6 @@
   ### No Microphone Jack Input
   **Out of the box, there is no microphone jack input with this config. It should be possible to get audio input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this results in much worse output audio quality. You could also try using VoodooHDA, but this would also result in much worse output audio quality. Due to the worse audio quality, this configuration is not setup for audio input out of the box. USB Microphones are not affected by this issue.**
 
-  [**Jump to Top**](#opencore-083-efi-for-the-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-083-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>
