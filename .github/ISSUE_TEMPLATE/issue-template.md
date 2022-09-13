@@ -1,6 +1,7 @@
 ---
 name: Issue template
-about: Have an issue with this config? Use this template to get as much help as possible.
+about: Have an issue with this configuration? Use this template to make the process
+  as easy as possible.
 title: ''
 labels: ''
 assignees: UHDbits
@@ -9,9 +10,9 @@ assignees: UHDbits
 
 Which do you have: an M73 Tiny or an M93p?:
 
-Do your specs match the ones shown in the README.md (minus the USB WiFi adapter)?:
+Do your specifications match the ones shown in the README.md? (not including the USB WiFi adapter):
 
-If your specs do not match, what are your specs?:
+If your specifications do not match, what are your specifications?:
 
 What version of OS X/macOS are you using?:
 
