@@ -1,6 +1,6 @@
 # **BIOS Settings**
 
-**Note: Anything not listed here, you should be able to freely modify. If you do have issues, try resetting your BIOS settings to default and only modify the settings shown here.**
+**Note: If a specific setting is not listed here, you should be able to freely modify it. If you do have issues, try resetting your BIOS to the default settings and only modify the settings shown here.**
 
 ## **Change:**
 * Devices -> ATA Drive Setup -> Configure SATA as [AHCI]
