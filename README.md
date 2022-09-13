@@ -54,7 +54,7 @@
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
   | 2 | Move the "EFI" folder from this repository into the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder.
   | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md)
-  | 4 | [Installation Process (Skip "Double checking Your Work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
+  | 4 | [Installation Process (Skip "Double checking your work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html)
   | 5* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom.)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 6* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't a good idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
   
