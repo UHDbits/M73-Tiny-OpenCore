@@ -1,4 +1,4 @@
-<div align="center">
+<div align="right">
   
   ### **NOTE: macOS Ventura currently does NOT work on this config. If you want a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in alpha stages, so it can be buggy and unstable. It is not recommended to use Ventura on this ThinkCentre until the main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
 
