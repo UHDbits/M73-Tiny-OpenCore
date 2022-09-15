@@ -10,4 +10,4 @@
 * Ensure that you have proper grammar and spelling when modifying documentation.
 * Document your change or issue in detail when reporting or fixing one.
 
-#### Thank you for reading and wanting to contribute to this OpenCore configuration! As long as you follow these guidelines, the process should 
+#### Thank you for reading and wanting to contribute to this OpenCore configuration! As long as you follow these guidelines, the process should go smoothly!
