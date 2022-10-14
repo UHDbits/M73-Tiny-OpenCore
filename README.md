@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: macOS Ventura currently does NOT work on this config. If you want a WIP version of this config that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in alpha stages, so it can be buggy and unstable. It is not recommended to use Ventura on this ThinkCentre until the main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
+  ### **NOTE: macOS Ventura currently does NOT work on this configuration. If you want a WIP version of this configuration that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in alpha stages, so it can be buggy and unstable. It is not recommended to use Ventura on this ThinkCentre until the main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
 
   # **OpenCore 0.8.5 for the Lenovo ThinkCentre M73 Tiny**
   
@@ -38,7 +38,7 @@
   | GPU | Intel HD Graphics 4600 |
   | Storage | SanDisk Ultra 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
-  | Internal WiFi/Bluetooth | Intel Centrino Wireless-N (not working) |
+  | Internal WiFi/Bluetooth | Intel Centrino Wireless-N 7260 (not working) |
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
   | Ethernet | Intel I217-V |
   
@@ -61,8 +61,8 @@
 
   ## Updating OpenCore/macOS
   
-  ### Updating OpenCore with a newer version of the configuration
-  **If you want to upgrade OpenCore with a newer version of the configuration, just download the new EFI folder, mount the EFI partition, and copy it over. Note, if you've made any changes to the configuration, make sure to save them in a text document because these changes will be overwritten.**
+  ### Updating OpenCore with a newer version of this configuration
+  **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy it over. Note, if you've made any changes to this configuration, make sure to remember them or save them somewhere because these changes will be overwritten.**
 
   ### Updating OpenCore/macOS manually
   **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to upgrade macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.)**
@@ -86,7 +86,7 @@
   ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
   ### No Microphone Jack Input
-  **Out of the box, there is no microphone jack input with this config. It should be possible to get audio input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this results in much worse output audio quality. You could also try using VoodooHDA, but this would also result in much worse output audio quality. Due to the worse audio quality, this configuration is not setup for audio input out of the box. USB Microphones are not affected by this issue.**
+  **Out of the box, there is no microphone jack input with this configuration. It should be possible to get audio input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this results in much worse output audio quality. You could also try using VoodooHDA, but this would also result in much worse output audio quality. Due to the worse audio quality, this configuration is not setup for audio input out of the box. USB Microphones are not affected by this issue.**
 
   [**Jump to Top**](#opencore-085-for-the-lenovo-thinkcentre-m73-tiny)
 
