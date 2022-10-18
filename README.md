@@ -62,7 +62,7 @@
   ## Updating OpenCore/macOS
   
   ### Updating OpenCore with a newer version of this configuration
-  **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy it over. Note, if you've made any changes to this configuration, make sure to remember them or save them somewhere because these changes will be overwritten.**
+  **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy it over. Note, if you've made any changes to this configuration, make sure to remember them or save them somewhere because any changes made will be overwritten.**
 
   ### Updating OpenCore/macOS manually
   **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to upgrade macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.)**
