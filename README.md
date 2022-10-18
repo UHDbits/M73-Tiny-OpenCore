@@ -79,14 +79,11 @@
   **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), random freezes may happen, icons may get replaced, or more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
 
   ![Example of Missing Icons](/Resources/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](/Resources/Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
-
-  ### Headphone Audio Glitching
-  **Out of the box, you may notice that audio through headphones is inaudible. This is a glitch with AppleALC and can be fixed by going into System Preferences -> Sound, and by moving the "Balance" slider left or right. This will not change the actual balance of the headphones, but it will fix the issue.**
-
-  ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
   ### No Microphone Jack Input
-  **Out of the box, there is no microphone jack input with this configuration. It should be possible to get audio input by changing the AppleALC layout-id to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this results in much worse output audio quality. You could also try using VoodooHDA, but this would also result in much worse output audio quality. Due to the worse audio quality, this configuration is not setup for audio input out of the box. USB Microphones are not affected by this issue.**
+  **Out of the box, there is no microphone jack input with this configuration. It is possible to get microphone jack input by changing the AppleALC layout ID to 66 using [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent), but this results in distorted headphone audio. This can be fixed by going to System Preferences -> Sound, and moving the "Balance" slider left or right. Due to the distorted headphone audio, this configuration is not setup for microphone jack input out of the box. The combo jack (labeled as the headphone jack) is not affected by this issue, and works fine out of the box.**
+
+![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
 
   [**Jump to Top**](#opencore-085-for-the-lenovo-thinkcentre-m73-tiny)
 
