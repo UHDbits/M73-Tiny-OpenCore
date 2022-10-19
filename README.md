@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: macOS Ventura currently does NOT work on this configuration. If you want a WIP version of this configuration that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in alpha stages, so it can be buggy and unstable. It is not recommended to use Ventura on this ThinkCentre until the main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more info.**
+  ### **NOTE: macOS Ventura currently does NOT work on this configuration. If you want a WIP version of this configuration that works with Ventura, check the "ventura" branch. Currently, graphics acceleration is in beta stages, so although unlikely, it can be unstable. Because of this reason, it is not recommended to use Ventura on this ThinkCentre until the main branch has been updated to support Ventura. Please check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/1) for more information.**
 
   # **OpenCore 0.8.5 for the Lenovo ThinkCentre M73 Tiny**
   
@@ -17,7 +17,7 @@
   
   ## ⚠️ WARNING ⚠️
   
-  **It is NOT recommended to use prebuilt OpenCore configurations. They might not work with the exact hardware of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This configuration should only be used at your own risk, or as a guide to help you create your own configuration.**
+  **It is NOT recommended to use prebuilt OpenCore configurations. They might not work with the exact hardware of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This configuration is meant to be used as a guide to help you create an OpenCore configuration for this ThinkCentre, but it can be used as is, at your own risk.**
   
   ## Contents
   
@@ -46,7 +46,7 @@
 
   ## Directions
   
-  **Follow the steps below by going to the links and following the directions on the OpenCore Install Guide. If a step is labeled with a &#42;, it means it's optional, but extremely recommended.**
+  **Follow the steps below by going to the links and following the directions listed. If a step is labeled with a &#42;, it means that it's optional, but extremely recommended.**
 
   | Step # | Link/Directions |
   | :-: | :-: |
@@ -62,18 +62,18 @@
   ## Updating OpenCore/macOS
   
   ### Updating OpenCore with a newer version of this configuration
-  **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy it over. Note, if you've made any changes to this configuration, make sure to remember them or save them somewhere because any changes made will be overwritten.**
+  **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy the folder to the partition. Note, if you've made any changes to the configuration, make sure to remember them or save them somewhere because any changes made will be overwritten.**
 
   ### Updating OpenCore/macOS manually
-  **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to upgrade macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.)**
+  **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to update macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.)**
 
   ## Known Issues
   
   ### No VGA Output
-  **With macOS, you will not be able to output the GUI via the VGA port featured on the ThinkCentre. This is an issue with macOS not offically supporting VGA, and at the moment is currently impossible to fix.**
+  **Due to macOS not offically supporting VGA, you will not be able to output the GUI via the VGA port featured on the ThinkCentre. At the moment, this is currently impossible to fix.**
 
   ### Monterey 12.3+ crashes during setup on the HD4400
-  **Monterey 12.3 or newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This is due to the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU.**
+  **Monterey 12.3 or newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This issue is caused by the HD4400, and can only be fixed by upgrading your CPU to one with an HD4600 iGPU.**
 
   ### HD4400 Glitching and Freezing
   **The HD4400 has many issues in macOS. For example, some icons may be missing (image below), random freezes may happen, icons may get replaced, or more. In newer versions of macOS, this can make the system almost unusable. This is impossible to fix at the moment, and the only thing you can do is upgrade your CPU to one with an HD4600 iGPU.**
