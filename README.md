@@ -17,7 +17,7 @@
   
   ## ⚠️ WARNING ⚠️
   
-  **It is NOT recommended to use prebuilt OpenCore configurations. They might not work with the exact hardware of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This configuration is meant to be used as a guide to help you create an OpenCore configuration for this ThinkCentre, but it can be used as is, at your own risk.**
+  **It is NOT recommended to use prebuilt OpenCore configurations. They might not work with the exact hardware of your computer, may have features enabled that you don't want, may be outdated, and are harder to diagnose. This configuration is meant to be used as a guide to help you create your own OpenCore configuration for this ThinkCentre, but it can be used as is, only at your own risk.**
   
   ## Contents
   
