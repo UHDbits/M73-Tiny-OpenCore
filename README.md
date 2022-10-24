@@ -5,7 +5,7 @@
   # **OpenCore 0.8.5 for the Lenovo ThinkCentre M73 Tiny**
   
   [![OpenCore 0.8.5](https://img.shields.io/badge/OpenCore-0.8.5-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  ![macOS Catalina 10.15 to Monterey 12.6](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Monterey%2012.6-blueviolet?logo=apple)
+  ![macOS Catalina 10.15 to Monterey 12.6.1](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Monterey%2012.6.1-blueviolet?logo=apple)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
   [![Configuration for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-red)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
