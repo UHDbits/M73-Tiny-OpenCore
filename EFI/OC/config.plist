@@ -236,10 +236,10 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>device-id</key>
-				<data>EgQAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwAiDQ==</data>
+				<key>device-id</key>
+				<data>EgQAAA==</data>
 				<key>enable-max-pixel-clock-override</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
@@ -849,7 +849,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>LogModules</key>
-			<string>*</string>
+			<string></string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -954,16 +954,14 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>#INFO (prev-lang:kbd)</key>
-				<string>en:252 (ABC), set 656e3a323532</string>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>amfi_get_out_of_my_way=1 ipc_control_port_options=0</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
@@ -1030,23 +1028,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02XXXXXXXXXGPF7XX</string>
+			<string>C02XXXXXXXXXXXXXX</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>7JbCcl9U</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac17,1</string>
+			<string>iMac18,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XXXXXGG7L</string>
+			<string>C02XXXXXH7JY</string>
 			<key>SystemUUID</key>
-			<string>3AEBBEBF-154E-4AB3-9DAD-5C26F68CBA47</string>
+			<string>49E22E7E-A304-4EC7-A937-E8D96826415F</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

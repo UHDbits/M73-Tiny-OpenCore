@@ -58,7 +58,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac17,1</string>
+			<string>iMac18,1</string>
 		</dict>
 		<key>EHC2</key>
 		<dict>
@@ -96,7 +96,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac17,1</string>
+			<string>iMac18,1</string>
 		</dict>
 		<key>XHC</key>
 		<dict>
@@ -188,7 +188,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac17,1</string>
+			<string>iMac18,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
