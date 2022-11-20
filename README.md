@@ -1,4 +1,6 @@
 <div align="center">
+
+  ### **OpenCore 0.8.6/0.8.7 is coming soon! I've been busy with other coding related projects lately, and haven't had the time to work on this configuration. It'll be done late November to early December.**
   
   # **OpenCore 0.8.5 for the Lenovo ThinkCentre M73 Tiny**
   
