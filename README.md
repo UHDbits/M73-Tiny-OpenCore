@@ -1,10 +1,8 @@
 <div align="center">
-
-  ### **OpenCore 0.8.6/0.8.7 is coming soon! I've been busy with other coding related projects lately, and haven't had the time to work on this configuration. It'll be done late November to early December.**
   
-  # **OpenCore 0.8.5 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.7 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.5](https://img.shields.io/badge/OpenCore-0.8.5-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.8.7](https://img.shields.io/badge/OpenCore-0.8.7-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Catalina 10.15 to Ventura 13.1](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.1-f48003?logo=apple)](https://apple.com/macos/ventura)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
@@ -52,13 +50,13 @@
   | :-: | :-: |
   | 0.5 | [For ThinkCentre M93p users, map your USB ports on Windows using this tool. Make sure to enable "Use Native Classes" in Settings, and use "iMac18,1" as the model identifer.](https://github.com/USBToolBox/tool)
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
-  | 2 | Move the "EFI" folder from this repository into the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder.
+  | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder.
   | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md)
   | 4 | [Installation Process (Skip "Double checking your work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
-  | 5 | **(FOR VENTURA ONLY)** [Use OpenCore Legacy Patcher to get graphics acceleration.](/Resources/Documentation/VenturaOCLP.md)
+  | 5 | **(For Ventura Only)** [Use OpenCore Legacy Patcher to get graphics acceleration.](/Resources/Documentation/VenturaOCLP.md)
   | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
   | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't a good idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 8** | **(MONTEREY AND UNDER)** [Modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md)
+  | 8** | **(Monterey and Under)** [Modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md)
 
   ## Updating OpenCore/macOS
   
@@ -89,6 +87,6 @@
   
   ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-085-for-the-lenovo-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-087-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>
