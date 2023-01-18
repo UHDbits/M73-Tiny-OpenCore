@@ -25,9 +25,9 @@
 		<key>EHC1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IOParentMatch</key>
 			<dict>
 				<key>IOPropertyMatch</key>
@@ -58,14 +58,14 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,1</string>
+			<string>iMac14,1</string>
 		</dict>
 		<key>EHC2</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IOParentMatch</key>
 			<dict>
 				<key>IOPropertyMatch</key>
@@ -96,14 +96,14 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,1</string>
+			<string>iMac14,1</string>
 		</dict>
 		<key>XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
 			<key>IOParentMatch</key>
 			<dict>
 				<key>IOPropertyMatch</key>
@@ -188,7 +188,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,1</string>
+			<string>iMac14,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
