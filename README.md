@@ -2,11 +2,12 @@
   
   # **OpenCore 0.8.8 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.8](https://img.shields.io/badge/OpenCore-0.8.8-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Catalina 10.15 to Ventura 13.2](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.2-f48003?logo=apple)](https://apple.com/macos/ventura)
-  [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
+  [![OpenCore 0.8.8](https://img.shields.io/badge/OpenCore-0.8.8-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![macOS Catalina 10.15 to Ventura 13.2](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.2-67320A?logo=apple)](https://apple.com/macos/ventura)
+  [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-334512.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
-  [![Configuration for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-red)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
+  [![Download](https://img.shields.io/badge/Download-114B14?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxIDEgMS4wNi0xLjA2TDExIDE0Ljk0VjIuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwdjEyLjE5bDQuOTctNC45N2EuNzUuNzUgMCAxIDEgMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMCAxLTEuMDYgMGwtNi4yNS02LjI1Wm0tLjIyIDkuNDdhLjc1Ljc1IDAgMCAwIDAgMS41aDE0LjVhLjc1Ljc1IDAgMCAwIDAtMS41SDQuNzVaIiBzdHlsZT0iZmlsbDojZmZmZmZmIj48L3BhdGg+PC9zdmc+)](https://github.com/UHDbits/M73-Tiny-OpenCore/releases/tag/v0.8.8)
+  [![Configuration for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-792316)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
