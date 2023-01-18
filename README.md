@@ -1,8 +1,8 @@
 <div align="center">
   
-  # **OpenCore 0.8.7 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.8 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.7](https://img.shields.io/badge/OpenCore-0.8.7-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.8.8](https://img.shields.io/badge/OpenCore-0.8.8-15b8d7)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Catalina 10.15 to Ventura 13.2](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.2-f48003?logo=apple)](https://apple.com/macos/ventura)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-green.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
@@ -87,6 +87,6 @@
   
   ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-087-for-the-lenovo-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-088-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>
