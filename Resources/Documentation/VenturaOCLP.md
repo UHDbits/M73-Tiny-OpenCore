@@ -1,7 +1,7 @@
 # **macOS 13 Ventura OCLP Tutorial**
 
 ### **IMPORTANT NOTICE:** 
-### **Although graphics acceleration is now possible on macOS 13 Ventura, there are some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". If any of these issues affect you, it is recommended to stay on Monterey or older. Finally, updating macOS can break root patches, so please make sure to check various sources to see if the latest version of Ventura supports OpenCore Legacy Patcher before updating.**
+### **Although graphics acceleration is now possible on macOS 13 Ventura, there are some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". If any of these issues affect you, it is recommended to stay on Monterey or older. Also, updating macOS can break root patches, so please make sure to check various sources to see if the latest version of Ventura supports OpenCore Legacy Patcher before updating.**
 
 ## Contents
 

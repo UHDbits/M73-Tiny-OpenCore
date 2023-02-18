@@ -1,8 +1,8 @@
 <div align="center">
   
-  # **OpenCore 0.8.8 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.8.9 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.8.8](https://img.shields.io/badge/OpenCore-0.8.8-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.8.9](https://img.shields.io/badge/OpenCore-0.8.9-004852)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Catalina 10.15 to Ventura 13.2](https://img.shields.io/badge/macOS-Catalina%2010.15%20to%20Ventura%2013.2-67320A?logo=apple)](https://apple.com/macos/ventura)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-334512.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
@@ -35,7 +35,7 @@
   | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
   | RAM | 2x8GB (16GB) of DDR3-1600 |
   | GPU | Intel HD Graphics 4600 |
-  | Storage | SanDisk Ultra 512GB SSD |
+  | Storage | Samsung 870 EVO 1TB SSD |
   | Audio | Realtek ALC283 (known issues) |
   | Internal WiFi/Bluetooth | Intel Centrino Wireless-N 7260 (not working) |
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
@@ -45,7 +45,7 @@
 
   ## Directions
   
-  **Follow the steps below by going to the links and following the directions listed. If a step is labeled with a &#42;, that means it's optional, but extremely recommended. If the step labeled has &#42;&#42;, that means it's optional and not required.**
+  **Follow the steps below by going to the links and following the directions listed. If a step is labeled with a &#42;, that means it's optional, but extremely recommended. If a step is labeled with &#42;&#42;, that means it's optional and not required.**
 
   | Step # | Link/Directions |
   | :-: | :-: |
@@ -73,7 +73,7 @@
   **Because of the fact that macOS 13 Ventura does not offically support the hardware featured in this ThinkCentre, we have to use a tool called "OpenCore Legacy Patcher" to apply patches that allow us to use Ventura normally. Sadly, these patches do have some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". As mentioned before, these bugs are quite minor and will not affect most people.**
 
   ### No VGA Output
-  **Due to macOS not offically supporting VGA, you will not be able to output the GUI via the VGA port featured on the ThinkCentre. At the moment, this is currently impossible to fix.**
+  **Due to macOS not offically supporting VGA, you will not be able to output the macOS user interface via the VGA port featured on the ThinkCentre. At the moment, this is currently impossible to fix.**
 
   ### Monterey 12.3+ crashes during setup on the HD4400
   **With the HD4400, Monterey 12.3 or newer crashes during the "Migration Assistant" part of setup. Sometimes, you can get past the screen, but it'll freeze later. This issue can only be fixed by upgrading your CPU to one with an HD4600 iGPU. It is unknown if this happens in Ventura.**
@@ -88,6 +88,6 @@
   
   ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/DarkHeadphonesFix.png#gh-dark-mode-only) ![Move the "Balance" slider left or right](/Resources/Images/Headphones%20Fix/LightHeadphonesFix.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-088-for-the-lenovo-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-089-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>

@@ -1,6 +1,6 @@
 # **Improving Security**
 
-### **IMPORTANT NOTE:**
+### **IMPORTANT NOTICE:**
 ### **Do NOT follow these steps with macOS 13 Ventura. By following these steps, you will cause your ThinkCentre to be unable to boot with macOS 13 Ventura. If you ever do want to upgrade to Ventura, please make sure to redownload the stock configuration, or undo the changes made to the configuration.**
 
 **Due to the fact that this ThinkCentre does not have offically supported hardware for macOS 13 Ventura, sacrifices to security have been made for Ventura compatibility. If you would like to undo these changes, and in turn make your system more secure, please make the following changes in the "config.plist" of the configuration. I recommend using [ProperTree](https://github.com/corpnewt/ProperTree/) to make these changes.**
