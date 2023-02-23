@@ -1,0 +1,18 @@
+name: "Mark/close issues/PRs as stale"
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v7
+        with:
+          stale-issue-message: "This issue has been marked as stale because it has not been active for 60 days. If there is no more activity, this issue will be closed in 7 days."
+          stale-pr-message: "This pull request has been marked as stale because it has not been active for 60 days. If there is no more activity, this pull request will be closed in 7 days."
+          close-issue-message: "This issue has been closed because it has not been active for 7 days after it was marked stale."
+          close-pr-message: "This pull request has been closed because it has not been active for 7 days after it was marked stale."
