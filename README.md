@@ -37,7 +37,7 @@
   | GPU | Intel HD Graphics 4600 |
   | Storage | Samsung 870 EVO 1TB SSD |
   | Audio | Realtek ALC283 (known issues) |
-  | Internal WiFi/Bluetooth | Intel Centrino Wireless-N 7260 (not working) |
+  | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) (driver not included, can be found [here](https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom)) |
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
   | Ethernet | Intel I217-V |
   
