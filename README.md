@@ -49,16 +49,16 @@
 
   | Step # | Link/Directions |
   | :-: | :-: |
-  | 0.25** | Grab a supported Broadcom WiFi card from [this link](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html#supported), or grab a supported USB WiFi adapter (driver not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support.
-  | 0.5 | [For ThinkCentre M83 Tiny and M93p users, map your USB ports on Windows using this tool. Make sure to enable "Use Native Classes" in Settings, and use "iMac18,1" as the model identifer.](https://github.com/USBToolBox/tool)
+  | 0.25** | Grab a supported Broadcom WiFi card from [this link](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html#supported), or grab a supported USB WiFi adapter (driver not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
+  | 0.5 | [For ThinkCentre M83 Tiny and M93p users, map your USB ports on Windows using this tool. Make sure to enable "Use Native Classes" in Settings, and use "iMac18,1" as the model identifer.](https://github.com/USBToolBox/tool) |
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
-  | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder.
-  | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md)
-  | 4 | [Installation Process (Skip "Double checking your work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
-  | 5 | **(For Ventura Only)** [Use OpenCore Legacy Patcher to get graphics acceleration.](/Resources/Documentation/VenturaOCLP.md)
-  | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
-  | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't a good idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-  | 8** | **(For Monterey Only)** [Modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md)
+  | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder. |
+  | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md) |
+  | 4 | [Installation Process (Skip "Double checking your work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb) |
+  | 5 | **(For Ventura Only)** [Use OpenCore Legacy Patcher to get graphics acceleration.](/Resources/Documentation/VenturaOCLP.md) |
+  | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) |
+  | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices, because otherwise you will have a generic serial number which isn't a good idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html) |
+  | 8** | **(For Monterey Only)** [Modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md) |
 
   ## Updating OpenCore/macOS
   
