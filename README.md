@@ -35,7 +35,7 @@
   | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
   | RAM | 2x8GB (16GB) of DDR3-1600 |
   | GPU | Intel HD Graphics 4600 |
-  | Storage | Samsung 870 EVO 1TB SSD |
+  | Storage | ADATA SU800 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
   | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
   | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
