@@ -38,7 +38,6 @@
   | Storage | ADATA SU800 512GB SSD |
   | Audio | Realtek ALC283 (known issues) |
   | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
-  | USB WiFi | TP-Link Archer T3U (driver not included, can be found [here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)) |
   | Ethernet | Intel I217-V |
   
   **If your system does not match these specifications (other than the not-important parts, like the WiFi card), it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue and I will try to help you to the best of my ability.**
@@ -49,7 +48,7 @@
 
   | Step # | Link/Directions |
   | :-: | :-: |
-  | 0.25** | Grab a supported Broadcom WiFi card from [this link](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html#supported), or grab a supported USB WiFi adapter (driver not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
+  | 0.25** | Grab a supported Broadcom WiFi card from [this link](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html#supported), or grab a supported USB WiFi adapter (kext not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
   | 0.5 | [For ThinkCentre M83 Tiny and M93p users, map your USB ports on Windows using this tool. Make sure to enable "Use Native Classes" in Settings, and use "iMac18,1" as the model identifer.](https://github.com/USBToolBox/tool) |
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
   | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself, not just the files inside of the folder. |
