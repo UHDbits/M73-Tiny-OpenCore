@@ -8,9 +8,9 @@ assignees: UHDbits
 
 ---
 
-Which do you have: an M73 Tiny or an M93p?:
+Which do you have: an M73 Tiny, M83 Tiny, or an M93p?:
 
-Do your specifications match the ones shown in the README.md? (not including the USB WiFi adapter):
+Do your specifications mostly match the ones shown in the README.md, other then WiFi and Bluetooth?:
 
 If your specifications do not match, what are your specifications?:
 
