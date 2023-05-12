@@ -3,7 +3,12 @@ on:
   push:
     branches:
       - main
+      - legacy
+    paths:
+      - EFI/**
   pull_request:
+    paths:
+      - EFI/**
 jobs:
   ocvalidate:
     runs-on: ubuntu-latest
@@ -12,7 +17,6 @@ jobs:
 
       - uses: brokeyourbike/ocvalidate-action@v0.3
         with:
-          opencore-version: '0.9.1'
-          release: true
+          opencore-version: '0.9.2'
 
       - run: ocvalidate ./EFI/OC/config.plist
