@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G531</string>
+	<string>22E261</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.8.2</string>
+	<string>1.8.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.8.2</string>
+	<string>1.8.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13F100</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>12.3</string>
+	<string>13.3</string>
 	<key>DTSDKBuild</key>
-	<string>21E226</string>
+	<string>22E245</string>
 	<key>DTSDKName</key>
-	<string>macosx12.3</string>
+	<string>macosx13.3</string>
 	<key>DTXcode</key>
-	<string>1341</string>
+	<string>1430</string>
 	<key>DTXcodeBuild</key>
-	<string>13F100</string>
+	<string>14E222b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -67,173 +67,27 @@
 			<array>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Toleda NUC/BRIX patch ALC283</string>
+					<string>UHDbits - Realtek ALC283/ALC3239 for the Lenovo ThinkCentre M73 Tiny</string>
 					<key>CodecID</key>
 					<integer>283902595</integer>
 					<key>ConfigData</key>
-					<data>AScc8AEnHQABJx4AAScfQAFHHPABRx0AAUceAAFHH0ABdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHGABlx0wAZceiwGXHwEBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhcccAIXHUACFx4rAhcfAQGXDAICFwwC</data>
+					<data>
+					IUccACFHHRAhRx4XIUcfkCFHDAIhlxwQIZcd
+					ECGXHqAhlx+CIaccICGnHRAhpx6AIacfAiIX
+					HDAiFx0QIhceISIXHwIiFwwC
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC283</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6gAScfkAFHHCABRx0BAUceFwFHH5ABlxwwAZcdAAGXHosBlx8AAhccQAIXHRACFx4rAhcfAQFHDAICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
+					<integer>73</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Custom by Slbomber ALC283 (V3-371)</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6gAScfkAFHHEABRx0BAUceFwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHPABlx0AAZceAAGXH0ABpxzwAacdAAGnHgABpx8AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AAhccUAIXHRACFx4hAhcfAwFHDAICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>11</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ThinkCentre M73(10AX) ALC283 by dumk1217</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>ISccACEnHQAhJx4AIScfQCHXHAEh1x0AIdceQCHXH0AiFxwQIhcdQCIXHiEiFx8CIhcMAiFHHCAhRx0BIUceFyFHH5AhRwwCIZccMCGXHZAhlx6jIZcfmSGnHEAhpx2QIacegSGnHwEhdxzwIXcdACF3HgAhdx9AIYcc8CGHHQAhhx4AIYcfQCG3HPAhtx0AIbceACG3H0AhtwwCIecc8CHnHQAh5x4AIecfQA==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>12</integer>
-					<key>WakeConfigData</key>
-					<data>IhcMAiFHDAIhtwwC</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ALC283 for AlldoCube/Cube Mix Plus by Aldo97</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>ASccEAEnHQEBJx6gAScfkAFHHCABRx0BAUceFwFHH5ABlxwwAZcdAAGXHosBlx8AAhccQAIXHRACFx4rAhcfAQFHDAICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - alc283 for LENOVO IDEAPAD 14</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHQABRx4XAUcfkAFHDAIBlxwgAZcdEAGXHoEBlx8AASccMAEnHQABJx6mAScfkAIXHGACFx0QAhceIQIXHwACFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>15</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Realtek ALC283 for ThinkCentre M93z 10AF ALC283 by giesteira </string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>AbccQAG3HQABtx4XAbcfmQEnHBABJx0AAScepgEnH5kBlxwgAZcdkAGXHoEBlx8BAaccMAGnHZABpx6BAacfAQIXHAACFx1AAhceIQIXHwEBRwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>44</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Realtek ALC283 for NUC7 by mikes </string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>AUccAAFHHQABRx4AAUcfQAEnHCABJx0AAScepgEnH5AB1xwwAdcdEAHXHoEB1x8AAhccQAIXHRACFx4hAhcfAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>45</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ASRock DeskMini 110(H110M-STX) ALC283 by licheedev</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>ASccgAEnHQABJx4AAScfQAFHHEABRx0BAUceEwFHH5ABpxwgAacdkAGnHoEBpx8BAdccYAHXHZAB1x5VAdcfQAIXHFACFx0QAhceIQIXHwEBRwwCAhcMAg==</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>66</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Realtek ALC283 for DELL R14 3437 by xiaoleGun(zoran)</string>
-					<key>CodecID</key>
-					<integer>283902595</integer>
-					<key>ConfigData</key>
-					<data>AUccEAFHHQEBRx4XAUcfkAFHDAIBdxzwAXcdAAF3HgABdx9AAYcc8AGHHQABhx4AAYcfQAGXHEABlx0gAZceiwGXHwIBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecdAAHnHgAB5x9AASccMAEnHQEBJx6mAScfkAIXHCACFx0QAhceIQIXHwICFwwC</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>88</integer>
-					<key>WakeConfigData</key>
-					<data>AUcMAg==</data>
+					<data>
+					IhcMAiFHDAI=
+					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
