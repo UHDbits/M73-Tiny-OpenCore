@@ -1,10 +1,4 @@
-Is this a documentation or a configuration change?:
-
-**IF IT IS A DOCUMENTATION CHANGE:**
-
-Why are you making this change?:
-
-What is the change?:
+Is this a configuration change, or a documentation change/something else?:
 
 **IF IT IS A CONFIGURATION CHANGE:**
 
@@ -23,3 +17,9 @@ What is the issue?:
 What did you change?:
 
 Steps to reproduce the issue:
+
+**IF IT IS A DOCUMENTATION CHANGE OR SOMETHING ELSE:**
+
+Why are you making this change?:
+
+What is the change?:

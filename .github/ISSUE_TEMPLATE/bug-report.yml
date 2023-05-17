@@ -1,0 +1,61 @@
+name: Bug Report Form
+description: Want to report a bug with this configuration? Fill out this form to make the problem as easy as to solve as possible.
+title: "Bug: "
+labels: ["bug"]
+assignees:
+  - UHDbits
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug with this OpenCore configuration! By doing this, you are helping to improve the experience for me and many other people!
+  - type: input
+    id: model
+    attributes:
+      label: What ThinkCentre model do you have?
+      description: What ThinkCentre model do you have, an M73 Tiny, M83 Tiny, or an M93p?
+      placeholder: Enter your model here.
+    validations:
+      required: true
+  - type: textarea
+    id: specs
+    attributes:
+      label: What are your specifications?
+      description: Do your specifications mostly match the ones shown in the README, other than WiFi and Bluetooth? If not, what exactly are your specifications?
+      placeholder: Enter if your specifications match here, and what exactly your specifications are if they don't match.
+    validations:
+      required: true
+  - type: checkboxes
+    id: config-version
+    attributes:
+      label: What is your configuration version?
+      description: Are you using the latest version of the configuration at the time of reporting this bug? Also, are you using the legacy configuration version for legacy macOS/OS X versions?
+      options:
+        - label: I am using the latest version of the configuration at the time of reporting, or I will note the version that I am using in my bug report below.
+          required: true
+        - label: I am using the legacy version of the configuration, and I am using Mojave or below.
+          required: false
+  - type: input
+    id: macos-version
+    attributes:
+      label: What version of macOS/OS X are you using?
+      description: Please make sure to provide the exact version.
+      placeholder: Please answer this as follows, I am using macOS Ventura 13.x.x.
+    validations:
+      required: true
+  - type: textarea
+    id: bug
+    attributes:
+      label: What is the bug?
+      description: Please describe the bug in a couple of sentences or more below. Include as many details as needed.
+      placeholder: Please describe the bug here.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What are the steps to reproduce the bug?
+      description: Please describe the steps that are required to reproduce the bug in detail below.
+      placeholder: Please describe the steps required to reproduce the bug here.
+    validations:
+      required: true
