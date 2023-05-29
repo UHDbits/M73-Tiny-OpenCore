@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug with this OpenCore configuration! By doing this, you are helping to improve the experience for me and many other people!
+        **Thanks for reporting a bug with this OpenCore configuration! By doing this, you are helping to improve the experience for me and many other people!**
   - type: input
     id: model
     attributes:
@@ -33,29 +33,29 @@ body:
       options:
         - label: I am using the latest version of the configuration at the time of reporting, or I will note the version that I am using in my bug report below.
           required: true
-        - label: I am using the legacy version of the configuration, and I am using Mojave or below.
+        - label: I am using the legacy version of the configuration, and I am using Big Sur or below.
           required: false
   - type: input
     id: macos-version
     attributes:
       label: What version of macOS/OS X are you using?
       description: Please make sure to provide the exact version.
-      placeholder: Please answer this as follows, I am using macOS Ventura 13.x.x.
+      placeholder: e.g. macOS Ventura 13.x.x.
     validations:
       required: true
   - type: textarea
     id: bug
     attributes:
       label: What is the bug?
-      description: Please describe the bug in a couple of sentences or more below. Include as many details as needed.
+      description: Please describe the bug in a couple of sentences or more above. Include as many details as needed.
       placeholder: Please describe the bug here.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: What are the steps to reproduce the bug?
-      description: Please describe the steps that are required to reproduce the bug in detail below.
+      label: What are the steps required to reproduce the bug?
+      description: Please describe the steps that are required to reproduce the bug in detail above.
       placeholder: Please describe the steps required to reproduce the bug here.
     validations:
       required: true
