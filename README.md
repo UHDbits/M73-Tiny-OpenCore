@@ -1,5 +1,9 @@
 <div align="center">
   
+  ### **NOTE: With the announcement of macOS 14 looming on the horizon, it is important to note that it is extremely unlikely that this configuration will support macOS 14 immediately at its beta release. I hope to make progress on getting it working on this ThinkCentre as soon as it releases to developers or to the public, but do note, it's likely that it will take a long time, or that support will never come.**
+  
+  <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
+  
   # **OpenCore 0.9.2 for the Lenovo ThinkCentre M73 Tiny**
   
   [![OpenCore 0.9.2](https://img.shields.io/badge/OpenCore-0.9.2-004852)](https://github.com/acidanthera/OpenCorePkg)
@@ -8,8 +12,6 @@
 
   [![Download](https://img.shields.io/badge/Download-114B14?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxIDEgMS4wNi0xLjA2TDExIDE0Ljk0VjIuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwdjEyLjE5bDQuOTctNC45N2EuNzUuNzUgMCAxIDEgMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMCAxLTEuMDYgMGwtNi4yNS02LjI1Wm0tLjIyIDkuNDdhLjc1Ljc1IDAgMCAwIDAgMS41aDE0LjVhLjc1Ljc1IDAgMCAwIDAtMS41SDQuNzVaIiBzdHlsZT0iZmlsbDojZmZmZmZmIj48L3BhdGg+PC9zdmc+)](https://github.com/UHDbits/M73-Tiny-OpenCore/releases/latest)
   [![Configuration for legacy Mac OS X/macOS here](https://img.shields.io/badge/Click%20here%20for%20legacy%20Mac%20OS%20X%2FmacOS%20support.-792316)](https://github.com/UHDbits/M73-Tiny-OpenCore/tree/legacy)
-
-  <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
   | ![Monterey About This Mac](/Resources/Images/About%20This%20Mac/DarkMontereyAboutThisMac.png#gh-dark-mode-only) ![Monterey About This Mac](/Resources/Images/About%20This%20Mac/LightMontereyAboutThisMac.png#gh-light-mode-only) | ![Ventura About This Mac](/Resources/Images/About%20This%20Mac/DarkVenturaAboutThisMac.png#gh-dark-mode-only) ![Ventura About This Mac](/Resources/Images/About%20This%20Mac/LightVenturaAboutThisMac.png#gh-light-mode-only) |
   | ----------------------------------------- | ----------------------------------------- |
