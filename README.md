@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: With the announcement of macOS 14 looming on the horizon, it is important to note that it is extremely unlikely that this configuration will support macOS 14 immediately at its beta release. I hope to make progress on getting it working on this ThinkCentre as soon as it releases to developers or to the public, but do note, it's likely that it will take a long time, or that support will never come.**
+  ### **NOTE: With the very recent announcement of macOS 14 Sonoma, it's time to start working on getting it to run on this ThinkCentre! Please note that this can be a long process, or could possibly never happen. An issue and branch for macOS 14 Sonoma will be created shortly.*
   
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
