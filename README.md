@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: With the very recent announcement of macOS 14 Sonoma, it's time to start working on getting it to run on this ThinkCentre! Please note that this can be a long process, or could possibly never happen. An issue and branch for macOS 14 Sonoma will be created shortly.**
+  ### **NOTE: With the very recent announcement of macOS 14 Sonoma, it's time to start working on getting it to run on this ThinkCentre! Please note that this can be a long process, or could possibly never happen. At the moment, it is currently unknown if it runs at all on this ThinkCentre. You can check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/18) or the "sonoma" branch for updates.**
   
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
