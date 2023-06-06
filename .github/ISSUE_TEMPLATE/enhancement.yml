@@ -1,0 +1,27 @@
+name: Enhancement Form
+description: Have a suggestion for a feature to add to the configuration? Fill out this form to make the problem as easy as to solve as possible.
+title: "Question: "
+labels: ["question"]
+assignees:
+  - UHDbits
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for suggesting a feature for this OpenCore configuration! By doing this, you are helping to improve the experience for me and many other people!**
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your suggestion for a feature/enhancement?
+      description: Please state your enhancement in a couple of sentences or more above. Include as many details as needed.
+      placeholder: Please state your enhancement here.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Do you have any ideas on how to implement the feature/enhancement? If so, please state them below.
+      description: Please state your ideas on how to implement the enhancement in a couple of sentences or more above. Include as many details as needed.
+      placeholder: Please state your ideas here.
+    validations:
+      required: false
