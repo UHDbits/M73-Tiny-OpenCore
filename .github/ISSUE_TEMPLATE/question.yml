@@ -47,7 +47,7 @@ body:
     id: question
     attributes:
       label: What is your question?
-      description: Please state your question in a couple of sentences or more above. Include as many details as needed.
+      description: Please state your question in a couple of sentences or more below. Include as many details as needed.
       placeholder: Please state your question here.
     validations:
       required: true

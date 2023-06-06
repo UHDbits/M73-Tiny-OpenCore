@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: ideas
     attributes:
-      label: Do you have any ideas on how to implement the feature/enhancement? If so, please state them below.
-      description: Please state your ideas on how to implement the enhancement in a couple of sentences or more above. Include as many details as needed.
+      label: Do you have any ideas on how to implement the feature/enhancement?
+      description: Please state your ideas on how to implement the enhancement in a couple of sentences or more below. Include as many details as needed.
       placeholder: Please state your ideas here.
     validations:
       required: false
