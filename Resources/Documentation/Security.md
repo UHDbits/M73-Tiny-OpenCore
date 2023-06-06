@@ -1,9 +1,9 @@
 # **Improving Security**
 
 ### **IMPORTANT NOTICE:**
-### **Do NOT follow these steps with macOS 13 Ventura. By following these steps, you will cause your ThinkCentre to be unable to boot with macOS 13 Ventura. If you ever do want to upgrade to Ventura, please make sure to redownload the stock configuration, or undo the changes made to the configuration.**
+### **Do NOT follow these steps with macOS 13 Ventura or macOS 14 Sonoma. By following these steps, you will cause your ThinkCentre to be unable to boot with either of the two versions. If you ever do want to upgrade to Ventura or Sonoma, please make sure to redownload the stock configuration, or undo the changes made to the configuration.**
 
-**Because this ThinkCentre does not have officially supported hardware for macOS 13 Ventura, sacrifices to security have been made for Ventura compatibility. If you would like to undo these changes, and in turn make your system more secure, please make the following changes in the "config.plist" of the configuration. I recommend using [ProperTree](https://github.com/corpnewt/ProperTree/) to make these changes.**
+**Because this ThinkCentre does not have officially supported hardware for macOS 13 Ventura or macOS 14 Sonoma, sacrifices to security have been made for compatibility. If you would like to undo these changes, and in turn make your system more secure, please make the following changes in the "config.plist" of the configuration. I recommend using [ProperTree](https://github.com/corpnewt/ProperTree/) to make these changes.**
 
 ## Changes to Make
 
