@@ -47,7 +47,7 @@ body:
     id: bug
     attributes:
       label: What is the bug?
-      description: Please describe the bug in a couple of sentences or more above. Include as many details as needed.
+      description: Please describe the bug in a couple of sentences or more below. Include as many details as needed.
       placeholder: Please describe the bug here.
     validations:
       required: true
@@ -55,7 +55,7 @@ body:
     id: steps
     attributes:
       label: What are the steps required to reproduce the bug?
-      description: Please describe the steps that are required to reproduce the bug in detail above.
+      description: Please describe the steps that are required to reproduce the bug in detail below.
       placeholder: Please describe the steps required to reproduce the bug here.
     validations:
       required: true
