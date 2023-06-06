@@ -40,7 +40,7 @@ body:
     attributes:
       label: What version of macOS/OS X are you using?
       description: Please make sure to provide the exact version.
-      placeholder: e.g. macOS Ventura 13.x.x.
+      placeholder: e.g. macOS Sonoma 14.x.x.
     validations:
       required: true
   - type: textarea
