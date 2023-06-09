@@ -35,12 +35,14 @@
   | Component | Model |
   | :-: | :-: |
   | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
+  | Chipset | Intel H81 Express |
+  | Internal GPU | Intel HD Graphics 4600 |
   | RAM | 2x8GB (16GB) of DDR3-1600 |
-  | GPU | Intel HD Graphics 4600 |
-  | Storage | ADATA SU800 512GB SSD |
-  | Audio | Realtek ALC283 (known issues) |
+  | Storage | ADATA SU800 512GB SATA SSD |
+  | Audio | Realtek ALC283 |
+  | External Display | HP ENVY 27 (3840x2160 @ 60Hz)
+  | Ethernet | Intel Ethernet Connection I217-V |
   | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
-  | Ethernet | Intel I217-V |
   
   **If your system does not match these specifications (other than the not-important parts, like the WiFi card), it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue and I will try to help you to the best of my ability.**
 
