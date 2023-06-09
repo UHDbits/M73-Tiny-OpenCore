@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### **NOTE: With the very recent announcement of macOS 14 Sonoma, it's time to start working on getting it to run on this ThinkCentre! Please note that this can be a long process, or could possibly never happen. At the moment, it is currently unknown if it runs at all on this ThinkCentre. You can check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/18) or the "sonoma" branch for updates.**
+  ### **NOTE: With the very recent announcement of macOS 14 Sonoma, it's time to start working on getting it to run on this ThinkCentre! Please note that this can be a long process, or could possibly never happen. macOS 14 Sonoma has been booted on this ThinkCentre, but many features currently do not work at all. You can check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/18) or the "sonoma" branch for updates.**
   
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
@@ -44,7 +44,7 @@
   | Ethernet | Intel Ethernet Connection I217-V |
   | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
   
-  **If your system does not match these specifications (other than the not-important parts, like the WiFi card), it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue and I will try to help you to the best of my ability.**
+  **If your system does not match these specifications (other than the not-important parts, like the external display), it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue and I will try to help you to the best of my ability.**
 
   ## Directions
   
