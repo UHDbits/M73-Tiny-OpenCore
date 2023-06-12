@@ -4,9 +4,9 @@
   
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
-  # **OpenCore 0.9.2 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.9.3 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.9.2](https://img.shields.io/badge/OpenCore-0.9.2-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.9.3](https://img.shields.io/badge/OpenCore-0.9.3-004852)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Monterey 12.0 to Sonoma 14.0](https://img.shields.io/badge/macOS-Monterey%2012.0%20to%20Sonoma%2014.0-7D1B35?logo=apple)](https://apple.com/macos/sonoma-preview)
   [![Maintained? Yes!](https://img.shields.io/badge/Maintained%3F-Yes!-334512.svg)](https://github.com/UHDbits/M73-Tiny-OpenCore/graphs/commit-activity)
 
@@ -87,6 +87,6 @@
 
   ![Example of Missing Icons](/Resources/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![Example of Missing Icons](/Resources/Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-092-for-the-lenovo-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-093-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>
