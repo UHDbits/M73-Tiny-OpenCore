@@ -4,6 +4,7 @@
 
 ## **Change:**
 - Devices -> ATA Drive Setup -> Configure SATA as [AHCI]
+- Devices -> Video Setup -> Pre-Allocated Memory Size [64MB or more]
 - Startup -> Boot Mode [UEFI Only]
 
 ## **Disable:**
