@@ -4,7 +4,6 @@ on:
     branches:
       - main
       - legacy
-      - sonoma
     paths:
       - EFI/**
   pull_request:
@@ -17,5 +16,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: brokeyourbike/ocvalidate-action@v0.3.1
         with:
-          opencore-version: '0.9.3'
+          opencore-version: '0.9.2'
       - run: ocvalidate ./EFI/OC/config.plist
