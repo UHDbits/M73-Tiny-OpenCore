@@ -33,7 +33,7 @@ body:
       options:
         - label: I am using the latest version of the configuration at the time of reporting, or I will note the version that I am using in my bug report below.
           required: true
-        - label: I am using the legacy version of the configuration, and I am using Big Sur or below.
+        - label: I am using the legacy version of the configuration, and I am using Catalina or below.
           required: false
   - type: input
     id: macos-version
