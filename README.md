@@ -1,7 +1,5 @@
 <div align="center">
   
-  ### **NOTE: This branch will include an experimental version of this OpenCore configuration that is meant to work with macOS 14 Sonoma. At the moment, a working configuration has not been uploaded and is still actively being worked on. As soon as Sonoma is able to be booted on this ThinkCentre, it'll be uploaded here. It is important to note that this branch is experimental and is not recommended for daily use. You can check [this issue](https://github.com/UHDbits/M73-Tiny-OpenCore/issues/18) for updates.**
-  
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="ThinkCentre M73 Tiny" width="400px"/>
   
   # **OpenCore 0.9.3 for the Lenovo ThinkCentre M73 Tiny**
