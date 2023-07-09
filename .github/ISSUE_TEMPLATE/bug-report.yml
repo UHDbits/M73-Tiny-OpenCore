@@ -1,5 +1,5 @@
 name: Bug Report Form
-description: Want to report a bug with this configuration? Fill out this form to make the problem as easy as to solve as possible.
+description: Want to report a bug with this configuration? Fill out this form to make the problem as easy to solve as possible.
 title: "Bug: "
 labels: ["bug"]
 assignees:
