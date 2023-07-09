@@ -5,8 +5,8 @@
 #### This OpenCore configuration for the M73 Tiny, M83 Tiny, and the M93p is looking for contributions that can help fix known issues, contributions that report and possibly solve new issues, and contributions that help make documentation more understandable and proper.
 
 #### Here are some rules you should follow when contributing:
-* If you are fixing something with the OpenCore configuration itself, make sure that the fix you are adding does not break any other features. You can do this by checking this [Hackintosh checklist](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/step-by-step/hackintosh-checklist) made by chriswayg. Check any items that you think could break with the addition of your fix. Keep in mind features that were already broken or had issues before you added the fix, and don't worry about them.
-* Follow the pull request template or issue template depending on which you are making.
+* If you are fixing something with the OpenCore configuration itself, make sure that the fix you add does not break any other features. You can do this by checking this [Hackintosh checklist](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/step-by-step/hackintosh-checklist) made by chriswayg. Check any items you think could break with the addition of your fix. Keep in mind features that were already broken or had issues before you added the fix, and don't worry about them.
+* Follow the pull request template or issue template, depending on which you are making.
 * Make sure that you have proper grammar and spelling when modifying documentation.
 * Document your change or issue in detail when reporting or fixing one.
 
