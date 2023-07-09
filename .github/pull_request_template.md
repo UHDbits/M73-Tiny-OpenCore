@@ -8,7 +8,7 @@ Do your specifications mostly match the ones shown in the README.md, other than 
 
 If your specifications do not match, what are your specifications?:
 
-Is this a previously known issue, or an issue only you have experienced?:
+Is this a previously known issue or an issue only you have experienced?:
 
 What version of OS X/macOS are you using?:
 
