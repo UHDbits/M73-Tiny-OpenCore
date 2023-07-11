@@ -13,4 +13,4 @@
 
 ## Extra Security Measures
 
-**If you want to improve security even more, you can follow the [Security and FileVault](https://dortania.github.io/OpenCore-Post-Install/universal/security.html) section of the OpenCore Post-Install guide. FileVault has already been enabled for you, so you do not need to follow that section of the guide. Also, you cannot change "SecureBootModel" from anything other than "Disabled" or "x86legacy" because OpenCore Legacy Patcher will stop working.**
+**If you want to improve security even more, you can follow the [Security and FileVault](https://dortania.github.io/OpenCore-Post-Install/universal/security.html) section of the OpenCore Post-Install guide. FileVault has already been enabled for you, so you do not need to follow that section of the guide. Also, you cannot change "SecureBootModel" from anything other than "Disabled" or "x86legacy", as this will cause OpenCore Legacy Patcher to stop working.**
