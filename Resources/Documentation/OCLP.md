@@ -1,7 +1,7 @@
 # **OpenCore Legacy Patcher Tutorial**
 
 ### **IMPORTANT NOTICE:** 
-### **Although graphics acceleration is now possible on macOS 13 Ventura, there are some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". If any of these issues affect you, it is recommended to stay on Monterey or older. Also, updating macOS can break root patches, so please make sure to check various sources to see if the latest version of Ventura supports OpenCore Legacy Patcher before updating.**
+### **Although graphics acceleration is now possible on macOS 13 Ventura, there are some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". If any of these issues affect you, it is recommended to stay on Monterey or older. Also, updating macOS can break root patches, so please check various sources to see if the latest version of Ventura supports OpenCore Legacy Patcher before updating.**
 
 ## Contents
 
@@ -16,7 +16,7 @@
 **After installing macOS and going through the initial setup, follow the steps below to get graphics acceleration.**
 
 1. Reboot your ThinkCentre into the OpenCore boot menu. After you see your boot options, one of which should be your macOS drive, press the spacebar. Move over to the "Reset NVRAM" option, and press "Enter". Wait for your computer to reboot back into macOS, and then sign into your account.
-2. Download the latest OpenCore Legacy Patcher version from [this link.](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/amfipass-beta-test) After downloading and extracting the .zip, open the app.
+2. Download the latest OpenCore Legacy Patcher version from [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/amfipass-beta-test). After downloading and extracting the .zip, open the app.
 3. After opening OpenCore Legacy Patcher, press the "Post Install Root Patch" option. You should see that "Graphics: Intel Haswell" is the only available patch. Press the "Start Root Patching" button. You will have to enter your password to continue the process. You may also see a prompt asking you to open "System Settings", but this can be safely ignored. After patching is done, you will be able to restart. Once you boot back into macOS, you should notice that you have transparency and that the system is much faster. Congratulations, you now have graphics acceleration!
 4. To prevent your system from breaking due to automatic updates, sign in to your account and open "System Settings -> General -> Software Update". Click on the information icon in the top right corner. Make sure "Install macOS Updates" is disabled. Congratulations, you can now use your ThinkCentre!
 
@@ -33,5 +33,5 @@
 
 **After following the steps above to make sure that the macOS version you want to update to is supported, and after updating, follow these steps to regain graphics acceleration.**
 
-1. You will likely see a prompt from OpenCore Legacy Patcher asking you to apply root patches again. Before continuing, it will ask you to make sure that you are using the latest version of OCLP. Check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/amfipass-beta-test) to make sure you have the latest version. If you are using an outdated version, download the latest version, and open the app once it is finished downloading. If you have the latest version, you can press "Ok" on the prompt asking you to apply root patches.
+1. You will likely see a prompt from OpenCore Legacy Patcher asking you to apply root patches again. Before continuing, it will ask you to make sure that you are using the latest version of OCLP. Check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/amfipass-beta-test) to ensure you have the latest version. If you are using an outdated version, download the latest version, and open the app once it is finished downloading. If you have the latest version, press "Ok" on the prompt asking you to apply root patches.
 2. After opening OpenCore Legacy Patcher, press the "Post Install Root Patch" option. You should see that "Graphics: Intel Haswell" is the only available patch. Press the "Start Root Patching" button. You will have to enter your password to continue the process. You may also see a prompt asking you to open "System Settings", but this can be safely ignored. After patching is done, you will be able to restart. Congratulations, you now have graphics acceleration again! 
