@@ -25,7 +25,7 @@
 10. Type "K" for "Build USBMap.kext" and press the Enter key.
 11. If asked to "Ignore" or "Disable", type "D" for "Disable" and press the Enter key.
 12. You will now be asked to enter your model identifier. To do this, type "iMac14,4" and press the Enter key.
-13. The "USBMap.kext" will now be created, and will show up in the same folder where "Windows.exe" is created!
+13. The "USBMap.kext" will now be created, and will show up in the same folder where "Windows.exe" is located!
 14. Go to the "/EFI/OC/Kexts" folder of this configuration, and delete the old "USBMap.kext" from the folder.
 15. Copy the "USBMap.kext" that you just made to the "/EFI/OC/Kexts" folder of this configuration. Congratulations, you have now mapped your USB ports!
 
