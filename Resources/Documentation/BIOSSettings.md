@@ -1,9 +1,10 @@
 # **BIOS Settings**
 
-**Note: If a specific setting is not listed here, you should be able to freely modify it. If you do have issues, try resetting your BIOS to the default settings and only modify the settings listed here.**
+**Note: If a specific setting is not listed here, you should be able to modify it freely. If you have issues, try resetting your BIOS to the default settings and only modify the settings listed here.**
 
 ## **Change:**
 - Devices -> ATA Drive Setup -> Configure SATA as [AHCI]
+- Devices -> Video Setup -> Pre-Allocated Memory Size [64MB or more]
 - Startup -> Boot Mode [UEFI Only]
 
 ## **Disable:**

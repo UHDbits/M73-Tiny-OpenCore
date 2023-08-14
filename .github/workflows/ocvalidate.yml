@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - legacy
     paths:
       - EFI/**
   pull_request:
@@ -16,5 +15,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: brokeyourbike/ocvalidate-action@v0.3.1
         with:
-          opencore-version: '0.9.2'
+          opencore-version: '0.9.4'
       - run: ocvalidate ./EFI/OC/config.plist
