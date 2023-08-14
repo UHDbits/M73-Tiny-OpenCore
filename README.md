@@ -54,7 +54,7 @@
 
   | Step # | Link/Directions |
   | :-: | :-: |
-  | 0.25** | Grab a supported Broadcom WiFi card [from here](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html), a supported Intel WiFi card (kext not included) [from here](https://openintelwireless.github.io/itlwm/Compat.html#), or grab a supported USB WiFi adapter (kext not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
+  | 0.25** | Grab a supported Broadcom WiFi card [from here](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/mpcie.html), a supported Intel WiFi card (kext not included) [from here](https://openintelwireless.github.io/itlwm/Compat.html#), or a supported USB WiFi adapter (kext not included) [from here](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter#%EF%B8%8E---known-working-and-testing-adapter) if you want WiFi support. |
   | 0.5 | [**For ThinkCentre M83 Tiny and M93p users**, follow this guide to increase the chances of this configuration working correctly.](/Resources/Documentation/M83andM93.md) |
   | 1 | [Creating the USB (Do not move the EFI folder. ProperTree is not needed.)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer) |
   | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself and not just the files inside the folder. |
@@ -76,10 +76,10 @@
   ## Known Issues
   
   ### macOS 14 Sonoma Support
-  **Because macOS 14 Sonoma does not support the hardware featured in this ThinkCentre, and since no patches have been made for compatibility yet, Sonoma support should be considered as in the "alpha" stages, and unusable as a daily driver. There are many issues with Sonoma, including the fact that Broadcom WiFi cards do not currently work and that Sonoma does not have any graphics acceleration on this ThinkCentre, which means that it will be unusably slow. Please wait for further updates on Sonoma before using it as a daily driver on this ThinkCentre.**
+  **Because macOS 14 Sonoma does not support the hardware featured in this ThinkCentre, Sonoma support should be considered as in the "alpha" stages, and unusable as a daily driver. There are many issues with Sonoma, including the fact that Broadcom WiFi cards do not currently work and that Sonoma only has alpha support for graphics acceleration, which means it could be unstable. Please wait for further updates on Sonoma before using it as a daily driver on this ThinkCentre.**
 
   ### OpenCore Legacy Patcher Issues
-  **Because macOS 13 Ventura does not officially support the hardware featured in this ThinkCentre, we have to use a tool called "OpenCore Legacy Patcher" to apply patches that allow us to use Ventura normally. Sadly, these patches do have some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". As mentioned before, these bugs are quite minor and will not affect most people.**
+  **Because macOS 13 Ventura and macOS 14 Sonoma do not officially support the hardware featured in this ThinkCentre, we have to use a tool called "OpenCore Legacy Patcher" to apply patches that allow us to use Ventura and Sonoma normally. Sadly, these patches do have some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". As mentioned before, these bugs are quite minor and will not affect most people.**
 
   ### No VGA Output
   **Due to macOS not officially supporting VGA, you will not be able to output the macOS user interface via the VGA port featured on the ThinkCentre. At the moment, this is currently impossible to fix.**
