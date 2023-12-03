@@ -21,7 +21,7 @@ body:
     id: specs
     attributes:
       label: What are your specifications?
-      description: Do your specifications mostly match the ones shown in the README, other than WiFi and Bluetooth? If not, what exactly are your specifications?
+      description: Do your specifications mostly match the ones shown in the README? If not, what exactly are your specifications?
       placeholder: Enter if your specifications match here and what exactly your specifications are if they don't match.
     validations:
       required: true

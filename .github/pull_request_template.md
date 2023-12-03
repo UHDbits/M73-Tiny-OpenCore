@@ -4,7 +4,7 @@ Is this a configuration change, or a documentation change/something else?:
 
 Which do you have: an M73 Tiny, M83 Tiny, or an M93p?:
 
-Do your specifications mostly match the ones shown in the README.md, other than WiFi and Bluetooth?:
+Do your specifications mostly match the ones shown in the README.md?:
 
 If your specifications do not match, what are your specifications?:
 

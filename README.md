@@ -39,11 +39,11 @@
   | RAM | 2x8GB (16GB) of DDR3-1600 |
   | Storage | ADATA SU800 512GB SATA SSD |
   | Audio | Realtek ALC283 |
-  | External Display | HP ENVY 27 (3840x2160 @ 60Hz)
+  | External Display | Lenovo ThinkVision T24i-20 (1920x1080 @ 60Hz)
   | Ethernet | Intel Ethernet Connection I217-V |
   | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
   
-  **If your system does not match these specifications (other than the not-important parts, like the external display), it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
+  **If your system does not match these specifications, it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
 
   ## Directions
   
@@ -57,7 +57,7 @@
   | 2 | Move the "EFI" folder from this repository to the "EFI" partition on macOS, to the root of your USB drive on Windows, or to the "OPENCORE" partition on Linux. Make sure to move the whole folder itself and not just the files inside the folder. |
   | 3 | [Modify your BIOS settings according to this document. Skip "VT-d" if you do not see it in your BIOS.](/Resources/Documentation/BIOSSettings.md) |
   | 4 | [Installation Process (Skip "Double checking your work". Check "OpenCore Multiboot Guide" if you want to multiboot.)](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb) |
-  | 5 | [**For Ventura users**, use OpenCore Legacy Patcher to get graphics acceleration.](/Resources/Documentation/OCLP.md) |
+  | 5 | [**For Ventura and Sonoma users**, use OpenCore Legacy Patcher to get graphics acceleration and WiFi connectivity.](/Resources/Documentation/OCLP.md) |
   | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) |
   | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices because otherwise, you will have a generic serial number, which isn't a great idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html) |
   | 8** | [**For Big Sur and Monterey users**, modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md) |
@@ -68,7 +68,7 @@
   **If you want to update OpenCore with a newer version of this configuration, just download the new EFI folder, mount the EFI partition, and copy the folder to the partition. Note, if you've made any changes to the configuration, make sure to remember them or save them somewhere because any changes made will be overwritten.**
 
   ### Updating OpenCore/macOS manually
-  **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to update macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.) If you want to update macOS 13 Ventura, follow [this guide here.](/Resources/Documentation/OCLP.md#before-updating-macos)**
+  **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to update macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.) If you want to update macOS 13 Ventura or macOS 14 Sonoma, follow [this guide here.](/Resources/Documentation/OCLP.md#before-updating-macos)**
 
   ## Known Issues
 
