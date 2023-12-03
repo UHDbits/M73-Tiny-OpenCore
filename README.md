@@ -1,6 +1,4 @@
 <div align="center">
-  
-  ### **If you would like to read a bit into the future of this OpenCore configuration, feel free to read [this notice](https://gist.github.com/UHDbits/6f91770a76fa728ba89faaa15b3b60d9), or read [this TLDR](/Resources/Documentation/Maintenance.md). Thanks for your support over the past year.**
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="Image of a Lenovo ThinkCentre M73 Tiny." width="400px"/>
   
