@@ -5,8 +5,7 @@
   # **OpenCore 0.9.6 for the Lenovo ThinkCentre M73 Tiny**
   
   [![OpenCore 0.9.6](https://img.shields.io/badge/OpenCore-0.9.6-004852)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Big Sur 11.0 to Ventura 13.5](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Ventura%2013.5-67320A?logo=apple)](https://apple.com/macos/ventura)
-  [![Partially Supports: macOS 14 Sonoma](https://img.shields.io/badge/Partially%20Supports-macOS%20Sonoma%2014.0-7D1B35)](https://apple.com/macos/sonoma-preview)
+  [![macOS Big Sur 11.0 to Sonoma 14.2](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.2-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
 
   [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
   
@@ -72,9 +71,6 @@
   **If you want to update OpenCore manually, you can follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore) (harder to follow, but recommended and tells you how to update macOS), or follow [this guide](https://www.insanelymac.com/forum/topic/347035-guide-updating-and-maintaining-opencore-new-method/) (easier to follow, but not recommended.) If you want to update macOS 13 Ventura, follow [this guide here.](/Resources/Documentation/OCLP.md#before-updating-macos)**
 
   ## Known Issues
-  
-  ### macOS 14 Sonoma Support
-  **Because macOS 14 Sonoma does not support the hardware featured in this ThinkCentre, Sonoma support should be considered as in the "alpha" stages, and unusable as a daily driver. There are many issues with Sonoma, including the fact that Broadcom WiFi cards do not currently work and that Sonoma only has alpha support for graphics acceleration, which means it could be unstable. Please wait for further updates on Sonoma before using it as a daily driver on this ThinkCentre.**
 
   ### OpenCore Legacy Patcher Issues
   **Because macOS 13 Ventura and macOS 14 Sonoma do not officially support the hardware featured in this ThinkCentre, we have to use a tool called "OpenCore Legacy Patcher" to apply patches that allow us to use Ventura and Sonoma normally. Sadly, these patches do have some minor issues. To check the issues that affect this ThinkCentre, check [this link](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008/) and look for "Haswell" in "Known Issues". As mentioned before, these bugs are quite minor and will not affect most people.**
