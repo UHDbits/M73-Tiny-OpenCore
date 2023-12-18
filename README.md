@@ -2,9 +2,9 @@
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="Image of a Lenovo ThinkCentre M73 Tiny." width="400px"/>
   
-  # **OpenCore 0.9.6 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.9.7 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.9.6](https://img.shields.io/badge/OpenCore-0.9.6-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.9.7](https://img.shields.io/badge/OpenCore-0.9.7-004852)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Big Sur 11.0 to Sonoma 14.2](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.2-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
 
   [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
@@ -86,6 +86,6 @@
 
   ![An image showing an example of icons going missing in macOS.](/Resources/Images/Missing%20Icons/DarkMissingIcons.png#gh-dark-mode-only) ![An image showing an example of icons going missing in macOS.](/Resources/Images/Missing%20Icons/LightMissingIcons.png#gh-light-mode-only)
   
-  [**Jump to Top**](#opencore-096-for-the-lenovo-thinkcentre-m73-tiny)
+  [**Jump to Top**](#opencore-097-for-the-lenovo-thinkcentre-m73-tiny)
 
 </div>
