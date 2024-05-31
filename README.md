@@ -5,7 +5,7 @@
   # **OpenCore 1.0.0 for the Lenovo ThinkCentre M73 Tiny**
   
   [![OpenCore 1.0.0](https://img.shields.io/badge/OpenCore-1.0.0-004852)](https://github.com/acidanthera/OpenCorePkg)
-  [![macOS Big Sur 11.0 to Sonoma 14.3](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.3-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
+  [![macOS Big Sur 11.0 to Sonoma 14.5](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.5-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
 
   [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
   
